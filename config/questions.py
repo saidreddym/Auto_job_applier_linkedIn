@@ -1,5 +1,3 @@
-
-
 ###################################################### APPLICATION INPUTS ######################################################
 
 
@@ -101,7 +99,7 @@ Note: If left empty as "", the tool will not answer the question. However, note 
 recent_employer = "Avrioc Technologies LLC" # "", "Lala Company", "Google", "Snowflake", "Databricks"
 
 # Example question: "On a scale of 1-10 how much experience do you have building web or mobile applications? 1 being very little or only in school, 10 being that you have built and launched applications to real users"
-confidence_level = "8"             # Any number between "1" to "10" including 1 and 10, put it in quotes ""
+confidence_level = "10"             # Any number between "1" to "10" including 1 and 10, put it in quotes ""
 ##
 
 
