@@ -13,5 +13,5 @@ config/personals.py
 .venv
 venv
 apikeys.py
-secrets.py
+config/secrets.py
 
