@@ -38,8 +38,8 @@ salary = ""                        # "$40,000+", "$60,000+", "$80,000+", "$100,0
 easy_apply_only = True             # True or False, Note: True or False are case-sensitive
 
 experience_level = []              # (multiple select) "Internship", "Entry level", "Associate", "Mid-Senior level", "Director", "Executive"
-job_type = []                      # (multiple select) "Full-time", "Part-time", "Contract", "Temporary", "Volunteer", "Internship", "Other"
-on_site = []                       # (multiple select) "On-site", "Remote", "Hybrid"
+job_type = ["Part-time", "Contract", "Temporary", "Volunteer"]                      # (multiple select) "Full-time", "Part-time", "Contract", "Temporary", "Volunteer", "Internship", "Other"
+on_site = ["Remote"]                       # (multiple select) "On-site", "Remote", "Hybrid"
 
 companies = []                     # (dynamic multiple select) make sure the name you type in list exactly matches with the company name you're looking for, including capitals. 
                                    # Eg: "7-eleven", "Google","X, the moonshot factory","YouTube","CapitalG","Adometry (acquired by Google)","Meta","Apple","Byte Dance","Netflix", "Snowflake","Mineral.ai","Microsoft","JP Morgan","Barclays","Visa","American Express", "Snap Inc", "JPMorgan Chase & Co.", "Tata Consultancy Services", "Recruiting from Scratch", "Epic", and so on...
@@ -68,13 +68,13 @@ pause_after_filters = False         # True or False, Note: True or False are cas
 ## >>>>>>>>>>> SKIP IRRELEVANT JOBS <<<<<<<<<<<
  
 # Avoid applying to these companies, and companies with these bad words in their 'About Company' section...
-about_company_bad_words = ["DeepLight AI", "Avrioc Technologies LLC", "Hire Feed", "Amazon Web Services (AWS)", "Dicetek LLC", "Data Economy", "DataEconomy"]       # (dynamic multiple search) or leave empty as []. Ex: ["Staffing", "Recruiting", "Name of Company you don't want to apply to"]
+about_company_bad_words = ["DeepLight AI", "Avrioc Technologies LLC", "Hire Feed", "Volante Technologies Pvt Ltd", "Amazon Web Services (AWS)", "Dicetek LLC", "Data Economy", "DataEconomy", "Tata Consultancy Services"]       # (dynamic multiple search) or leave empty as []. Ex: ["Staffing", "Recruiting", "Name of Company you don't want to apply to"]
 
 # Skip checking for `about_company_bad_words` for these companies if they have these good words in their 'About Company' section... [Exceptions, For example, I want to apply to "Robert Half" although it's a staffing company]
 about_company_good_words = []      # (dynamic multiple search) or leave empty as []. Ex: ["Robert Half", "Dice"]
 
 # Avoid applying to these companies if they have these bad words in their 'Job Description' section...  (In development)
-bad_words = ["US Citizen","USA Citizen","No C2C", "Detection", "No Corp2Corp", ".NET", "Embedded Programming", "PHP", "Ruby", "CNC", "Alibaba", "Oracle", "XMCloud", "Emirati"]                     # (dynamic multiple search) or leave empty as []. Case Insensitive. Ex: ["word_1", "phrase 1", "word word", "polygraph", "US Citizenship", "Security Clearance"]
+bad_words = ["US Citizen","USA Citizen","No C2C", "Detection", "No Corp2Corp", ".NET", "Embedded Programming", "PHP", "Ruby", "CNC", "Alibaba", "Oracle", "XMCloud", "Emirati", "Java", "Ruby"]                     # (dynamic multiple search) or leave empty as []. Case Insensitive. Ex: ["word_1", "phrase 1", "word word", "polygraph", "US Citizenship", "Security Clearance"]
 
 # Do you have an active Security Clearance? (True for Yes and False for No)
 security_clearance = False         # True or False, Note: True or False are case-sensitive
