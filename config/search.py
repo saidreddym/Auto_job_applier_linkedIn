@@ -68,7 +68,7 @@ pause_after_filters = False         # True or False, Note: True or False are cas
 ## >>>>>>>>>>> SKIP IRRELEVANT JOBS <<<<<<<<<<<
  
 # Avoid applying to these companies, and companies with these bad words in their 'About Company' section...
-about_company_bad_words = ["DeepLight AI", "Avrioc Technologies LLC", "Hire Feed", "Volante Technologies Pvt Ltd", "Amazon Web Services (AWS)", "Dicetek LLC", "Data Economy", "DataEconomy", "Tata Consultancy Services"]       # (dynamic multiple search) or leave empty as []. Ex: ["Staffing", "Recruiting", "Name of Company you don't want to apply to"]
+about_company_bad_words = ["DeepLight AI", "Avrioc Technologies LLC", "Crossing Hurdles", "Hire Feed", "Volante Technologies Pvt Ltd", "Amazon Web Services (AWS)", "Dicetek LLC", "Data Economy", "DataEconomy", "Tata Consultancy Services"]       # (dynamic multiple search) or leave empty as []. Ex: ["Staffing", "Recruiting", "Name of Company you don't want to apply to"]
 
 # Skip checking for `about_company_bad_words` for these companies if they have these good words in their 'About Company' section... [Exceptions, For example, I want to apply to "Robert Half" although it's a staffing company]
 about_company_good_words = []      # (dynamic multiple search) or leave empty as []. Ex: ["Robert Half", "Dice"]
