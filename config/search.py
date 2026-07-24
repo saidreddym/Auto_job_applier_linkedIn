@@ -5,7 +5,7 @@
 search_terms = ["Cloud Architect", "Data Center Administrator", "AWS Cloud Architect", "Azure Cloud Architect", "DC Admin", "Senior Cloud Architect", "Devops Architect", "IT Manager", "Cloud Solutions Architect", "Multi Cloud Solutions Archtiect", "AWS Infra Platform Architect"]
 
 # Search location, this will be filled in "City, state, or zip code" search box. If left empty as "", tool will not fill it.
-search_location = "United States"             # Some valid examples: "", "United States", "India", "Chicago, Illinois, United States", "90001, Los Angeles, California, United States", "Bengaluru, Karnataka, India", etc.
+search_location = "India"             # Some valid examples: "", "United States", "India", "Chicago, Illinois, United States", "90001, Los Angeles, California, United States", "Bengaluru, Karnataka, India", etc.
 
 # After how many number of applications in current search should the bot switch to next search? 
 switch_number = 30                 # Only numbers greater than 0... Don't put in quotes
@@ -68,7 +68,7 @@ pause_after_filters = False         # True or False, Note: True or False are cas
 ## >>>>>>>>>>> SKIP IRRELEVANT JOBS <<<<<<<<<<<
  
 # Avoid applying to these companies, and companies with these bad words in their 'About Company' section...
-about_company_bad_words = ["DeepLight AI", "Avrioc Technologies LLC", "Crossing Hurdles", "Hire Feed", "Volante Technologies Pvt Ltd", "Amazon Web Services (AWS)", "Dicetek LLC", "Data Economy", "DataEconomy", "Tata Consultancy Services"]       # (dynamic multiple search) or leave empty as []. Ex: ["Staffing", "Recruiting", "Name of Company you don't want to apply to"]
+about_company_bad_words = ["DeepLight AI", "Avrioc Technologies LLC", "Crossing Hurdle", "Hire Feed", "Volante Technologies Pvt Ltd", "Amazon Web Services (AWS)", "Dicetek LLC", "Data Economy", "DataEconomy", "Tata Consultancy Services"]       # (dynamic multiple search) or leave empty as []. Ex: ["Staffing", "Recruiting", "Name of Company you don't want to apply to"]
 
 # Skip checking for `about_company_bad_words` for these companies if they have these good words in their 'About Company' section... [Exceptions, For example, I want to apply to "Robert Half" although it's a staffing company]
 about_company_good_words = []      # (dynamic multiple search) or leave empty as []. Ex: ["Robert Half", "Dice"]
