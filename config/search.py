@@ -5,7 +5,7 @@
 search_terms = ["Cloud Architect", "Data Center Administrator", "AWS Cloud Architect", "Azure Cloud Architect", "Senior Cloud Architect", "Devops Architect", "IT Manager", "Cloud Solutions Architect", "Multi Cloud Solutions Archtiect", "AWS Infra Platform Architect"]
 
 # Search location, this will be filled in "City, state, or zip code" search box. If left empty as "", tool will not fill it.
-search_location = "Kuwait"             # Some valid examples: "", "United States", "India", "Chicago, Illinois, United States", "90001, Los Angeles, California, United States", "Bengaluru, Karnataka, India", etc.
+search_location = "Hyderabad"             # Some valid examples: "", "United States", "India", "Chicago, Illinois, United States", "90001, Los Angeles, California, United States", "Bengaluru, Karnataka, India", etc.
 
 # After how many number of applications in current search should the bot switch to next search? 
 switch_number = 30                 # Only numbers greater than 0... Don't put in quotes
@@ -31,11 +31,11 @@ This is below format: QUESTION = VALID_ANSWER
 
 '''
 
-sort_by = ""                       # "Most recent", "Most relevant" or ("" to not select) 
-date_posted = "Any time"         # "Any time", "Past month", "Past week", "Past 24 hours" or ("" to not select)
+sort_by = "Most relevant"                       # "Most recent", "Most relevant" or ("" to not select) 
+date_posted = ""         # "Any time", "Past month", "Past week", "Past 24 hours" or ("" to not select)
 salary = ""                        # "$40,000+", "$60,000+", "$80,000+", "$100,000+", "$120,000+", "$140,000+", "$160,000+", "$180,000+", "$200,000+"
 
-easy_apply_only = True             # True or False, Note: True or False are case-sensitive
+easy_apply_only = False             # True or False, Note: True or False are case-sensitive
 
 experience_level = []              # (multiple select) "Internship", "Entry level", "Associate", "Mid-Senior level", "Director", "Executive"
 job_type = []                      # (multiple select) "Full-time", "Part-time", "Contract", "Temporary", "Volunteer", "Internship", "Other"
@@ -74,7 +74,7 @@ about_company_bad_words = ["DeepLight AI", "Avrioc Technologies LLC", "Crossing 
 about_company_good_words = []      # (dynamic multiple search) or leave empty as []. Ex: ["Robert Half", "Dice"]
 
 # Avoid applying to these companies if they have these bad words in their 'Job Description' section...  (In development)
-bad_words = ["US Citizen", "Oracle", "Murex", "Data Engineer", "USA Citizen", "Back End", "HCM", "BlackChain", "No C2C", "ERP", "SAP", "Detection", "No Corp2Corp", ".NET", "Embedded Programming", "PHP", "Ruby", "CNC", "Alibaba", "Oracle", "XMCloud", "Emirati", "Java", "Ruby"]                     # (dynamic multiple search) or leave empty as []. Case Insensitive. Ex: ["word_1", "phrase 1", "word word", "polygraph", "US Citizenship", "Security Clearance"]
+bad_words = ["US Citizen", "Oracle", "Data Architect", "MLOps", "Murex", "Data Engineer", "USA Citizen", "Back End", "HCM", "BlackChain", "No C2C", "ERP", "SAP", "Detection", "No Corp2Corp", ".NET", "Embedded Programming", "PHP", "Ruby", "CNC", "Alibaba", "Oracle", "XMCloud", "Emirati", "Java", "Ruby"]                     # (dynamic multiple search) or leave empty as []. Case Insensitive. Ex: ["word_1", "phrase 1", "word word", "polygraph", "US Citizenship", "Security Clearance"]
 
 # Do you have an active Security Clearance? (True for Yes and False for No)
 security_clearance = False         # True or False, Note: True or False are case-sensitive
